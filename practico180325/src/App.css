@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+}
+
+.btn-edit {
+  background-color: #2196F3;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  margin-right: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-header {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  background-color: #646464;
+}
+
+.table-cell {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
